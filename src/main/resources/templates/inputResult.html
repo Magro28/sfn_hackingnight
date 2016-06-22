@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"></meta>
+    <title>Input Result</title>
+</head>
+    <body>
+        <p>
+            Thanks for you submission!
+        </p>
+        <p th:text="'Your name is ' + ${inputModel.name} + '!'" />
+    </body>
+</html>
